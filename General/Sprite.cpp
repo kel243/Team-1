@@ -278,7 +278,6 @@
 			else{
 				animation--;
 			}
-
 			setAnimLastTime();
 			setF1(animation);
 		}
@@ -325,6 +324,9 @@
 		return remove;
 	}
 
+	void Sprite::setRemove(bool rm){
+		remove = rm;
+	}
 
 
 
